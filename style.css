@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 45%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  width: 100%;
+  display: flex;
+}
+
+input {
+  width: 80%;
+  outline: none;
+  border: 1px solid black;
+  padding: 15px;
+  font-size: 16px;
+}
+
+button {
+  width: 20%;
+  color: white;
+  background-color: green;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#records {
+  height: 20px;
+}
+
+li {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+}
+
+.fa-pen-to-square {
+  background-color: aqua;
+  color: white;
+  font-size: 22px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.fa-trash {
+  background-color: red;
+  color: white;
+  font-size: 22px;
+  padding: 5px;
+  cursor: pointer;
+}
